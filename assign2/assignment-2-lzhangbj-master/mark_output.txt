@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building assignment-2 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ assignment-2 ---
+[INFO] Deleting /home/cloudera/comp4651/grading/comp4651-autograder/assignment-2/assignment-2-lzhangbj/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ assignment-2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cloudera/comp4651/grading/comp4651-autograder/assignment-2/assignment-2-lzhangbj/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ assignment-2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/cloudera/comp4651/grading/comp4651-autograder/assignment-2/assignment-2-lzhangbj/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ assignment-2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/cloudera/comp4651/grading/comp4651-autograder/assignment-2/assignment-2-lzhangbj/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ assignment-2 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/cloudera/comp4651/grading/comp4651-autograder/assignment-2/assignment-2-lzhangbj/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ assignment-2 ---
+[INFO] Surefire report directory: /home/cloudera/comp4651/grading/comp4651-autograder/assignment-2/assignment-2-lzhangbj/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running hk.ust.comp4651.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ assignment-2 ---
+[INFO] Building jar: /home/cloudera/comp4651/grading/comp4651-autograder/assignment-2/assignment-2-lzhangbj/target/assignment-2-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.509 s
+[INFO] Finished at: 2019-10-14T06:00:14Z
+[INFO] Final Memory: 41M/341M
+[INFO] ------------------------------------------------------------------------
+mark: 2
